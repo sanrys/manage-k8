@@ -135,7 +135,7 @@ spec:
             - --stderrthreshold=info
             - --cloud-provider=aws
             - --skip-nodes-with-local-storage=false
-            - --nodes=3:5:saneks-cli-worker-NodeGroup-EF74Q5CVD7XF
+            - --nodes=2:8:<AUTOSCALING GROUP NAME>
           env:
             - name: AWS_REGION
               value: us-west-2
